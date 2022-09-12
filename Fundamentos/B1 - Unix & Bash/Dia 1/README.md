@@ -6,6 +6,8 @@ Nos arquivos .txt dentro dessa pasta estão as linhas de codigo que usei para re
 Barras duplas '//' serão usadas para especificar quando não e uma linha de codigo propriamente dita. 
 
 ##### Exemplo
-Ctrl+ 'Usado para dizer que e a tecla CTRL pressionada em conjunto com outra tecla'  
+Ctrl+ 'Usado para dizer que e a tecla CTRL pressionada em conjunto com outra tecla'
+
+*Todos os comandos devem ser executados linha por linha*
 
 ***esses arquivos ainda não foram revisados***
