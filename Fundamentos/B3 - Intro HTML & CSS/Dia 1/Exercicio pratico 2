@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8">
+    <title>HTML</title>
+  </head>
+  <body>
+    <h1>Exercícios</h1>
+    <p>Pessoas que participaram de dinamicas em grupo comigo</p>
+        <p> <a href="#ramil"> Ramily </a> </p>
+        <p> <a href="#alex"> Alex </a> </p>
+        <p>Entre outros mas não me recordo.</p>
+        <p> <a href="https://www.google.com.br/"> Google </a></p>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <p id="ramil">Ramily texto </p>
+        <p id="alex">Alex texto </p>
+  </body>
+</html>
