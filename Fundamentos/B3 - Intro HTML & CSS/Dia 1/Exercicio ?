@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8">
+    <title>HTML</title>
+  </head>
+  <body>
+    <h1>Exercícios</h1>
+    <p>Pessoas que participaram de dinamicas em grupo comigo</p>
+    <ul>
+        <li>
+            Ramily
+            Alex
+            Entre outros mas não me recordo.
+        </li>
+    </ul>
+    <img src="https://i.pinimg.com/564x/f8/ea/f3/f8eaf3de4750f5e2554e8bc8c2c0828f.jpg">
+    <img scr="fascinating.jpeg">
+  </body>
+</html>
