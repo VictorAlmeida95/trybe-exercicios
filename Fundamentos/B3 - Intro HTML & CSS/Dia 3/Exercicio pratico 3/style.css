@@ -1,0 +1,15 @@
+h1,p {
+    text-align: center;
+}
+
+.lista:hover{
+    background-color: aquamarine;
+}
+
+.lista:active{
+    font-family:'Trebuchet MS'
+}
+
+ul,ol {
+    list-style: none
+}
