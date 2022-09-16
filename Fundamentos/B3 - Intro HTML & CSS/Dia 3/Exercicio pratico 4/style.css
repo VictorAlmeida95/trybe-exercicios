@@ -1,0 +1,42 @@
+#first {
+    color: red ;
+    font-style: italic;
+}
+
+#first:hover {
+    border: 2px solid red;
+}
+
+#second {
+    color:orange
+}
+
+#second:hover {
+    border: 2px solid orange;
+}
+
+#third {
+    color: aquamarine;
+    font-style: italic;
+}
+
+#third:hover {
+    border: 2px solid aquamarine;
+}
+
+#fourth {
+    color: rgb(0, 58, 39);
+}
+
+#fourth:hover {
+    border: 2px solid rgb(0, 58, 39);
+}
+
+#fifth {
+    color:rgb(213, 214, 245);
+    font-style: italic;
+}
+
+#fifth:hover {
+    border: 2px solid rgb(213, 214, 245);
+}
