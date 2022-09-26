@@ -13,6 +13,7 @@ function inteiros(numeros){
             repetido = contador
             qualNum = index
         }
+        contador = 0
     }
     return numeros[qualNum]
 }
