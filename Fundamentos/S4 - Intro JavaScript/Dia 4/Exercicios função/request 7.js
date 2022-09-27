@@ -1,5 +1,5 @@
 function strings(word,ending){
-
+    
 }
 
 console.log(strings('trybe','be'));
