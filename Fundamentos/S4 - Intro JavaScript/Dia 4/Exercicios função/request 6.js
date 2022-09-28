@@ -1,8 +1,8 @@
-function natural(n){
-    for (let index in n){
-        let contador = n[index] 
+function natural(numero){
+    let resultado = 0
+    for (let index = 1; index <= numero; index += 1){
+        resultado = resultado + index
     }
-    return contador
+    return resultado
 }
-
-console.log(natural[5]);
+console.log(natural([5]));
