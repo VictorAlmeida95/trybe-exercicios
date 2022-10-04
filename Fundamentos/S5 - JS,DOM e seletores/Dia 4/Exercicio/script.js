@@ -27,18 +27,22 @@ escolha.onchange = function changeBackground (){
     if (valor === 'Preto'){
         let body = document.querySelector('body')
         body.style.backgroundColor = 'black'
+        localStorage.setItem('ColorBG', escolha.value)
     }
     else if (valor === 'Azul claro'){
         let body = document.querySelector('body')
         body.style.backgroundColor = '#6fbbd3'
+        localStorage.setItem('ColorBG', escolha.value)
     }
     else if (valor === 'Lilás'){
         let body = document.querySelector('body')
         body.style.backgroundColor = '#b19cd9'
+        localStorage.setItem('ColorBG', escolha.value)
     }
     else {
         let body = document.querySelector('body')
         body.style.backgroundColor = 'white'
+        localStorage.setItem('ColorBG', 'Branco')
     }
 }
 
@@ -74,18 +78,22 @@ escolha2.onchange = function changeColor (){
     if (valor === 'Preto'){
         let body = document.querySelector('body')
         body.style.color = 'black'
+        localStorage.setItem('ColorF', escolha2.value)
     }
     else if (valor === 'Azul claro'){
         let body = document.querySelector('body')
         body.style.color = '#6fbbd3'
+        localStorage.setItem('ColorF', escolha2.value)
     }
     else if (valor === 'Lilás'){
         let body = document.querySelector('body')
         body.style.color = '#b19cd9'
+        localStorage.setItem('ColorF', escolha2.value)
     }
     else {
         let body = document.querySelector('body')
         body.style.color = 'white'
+        localStorage.setItem('ColorF', escolha2.value)
     }
 }
 
@@ -118,14 +126,17 @@ escolha3.onchange = function changeSize (){
     if (valor === 'Média'){
         let body = document.querySelector('body')
         body.style.fontSize = 'medium'
+        localStorage.setItem('Size', escolha3.value)
     }
     else if (valor === 'Grande'){
         let body = document.querySelector('body')
         body.style.fontSize = 'large'
+        localStorage.setItem('Size', escolha3.value)
     }
     else {
         let body = document.querySelector('body')
         body.style.fontSize = 'small'
+        localStorage.setItem('Size', escolha3.value)
     }
 }
 
@@ -158,14 +169,17 @@ escolha4.onchange = function changeLineHeight (){
     if (valor === 'Média'){
         let body = document.querySelector('body')
         body.style.lineHeight = '33px'
+        localStorage.setItem('lHeight', escolha4.value)
     }
     else if (valor === 'Grande'){
         let body = document.querySelector('body')
         body.style.lineHeight = '43px'
+        localStorage.setItem('lHeight', escolha4.value)
     }
     else {
         let body = document.querySelector('body')
         body.style.lineHeight = '23px'
+        localStorage.setItem('lHeight', escolha4.value)
     }
 }
 
@@ -195,9 +209,92 @@ escolha5.onchange = function changeFont (){
     if (valor === 'Arial'){
         let body = document.querySelector('body')
         body.style.fontFamily = 'arial'
+        localStorage.setItem('font', escolha5.value)
     }
     else {
         let body = document.querySelector('body')
         body.style.fontFamily = 'georgia'
+        localStorage.setItem('font', escolha5.value)
     }
+}
+
+// salvos BG
+
+if(localStorage.getItem('ColorBG')=== 'Preto'){
+    let body = document.querySelector('body')
+    body.style.backgroundColor = 'black'
+}
+
+if(localStorage.getItem('ColorBG')=== 'Azul claro'){
+    let body = document.querySelector('body')
+    body.style.backgroundColor = '#6fbbd3'
+}
+
+if(localStorage.getItem('ColorBG')=== 'Lilás'){
+    let body = document.querySelector('body')
+    let preto = localStorage.setItem('ColorBG', escolha.value)
+}
+
+if(localStorage.getItem('ColorBG')=== 'Branco'){
+    let body = document.querySelector('body')
+    body.style.backgroundColor = 'white'
+}
+
+// Salvos Color
+
+if (localStorage.getItem('ColorF') === 'Preto'){
+    let body = document.querySelector('body')
+    body.style.color = 'black'
+}
+else if (localStorage.getItem('ColorF') === 'Azul claro'){
+    let body = document.querySelector('body')
+    body.style.color = '#6fbbd3'
+}
+else if (localStorage.getItem('ColorF') === 'Lilás'){
+    let body = document.querySelector('body')
+    body.style.color = '#b19cd9'
+}
+else {
+    let body = document.querySelector('body')
+    body.style.color = 'white'
+}
+
+// salvos 3
+
+if (localStorage.getItem('Size') === 'Média'){
+    let body = document.querySelector('body')
+    body.style.fontSize = 'medium'
+}
+else if (localStorage.getItem('Size') === 'Grande'){
+    let body = document.querySelector('body')
+    body.style.fontSize = 'large'
+}
+else {
+    let body = document.querySelector('body')
+    body.style.fontSize = 'small'
+}
+
+// salvos 4
+
+if (localStorage.getItem('lHeight') === 'Média'){
+    let body = document.querySelector('body')
+    body.style.lineHeight = '33px'
+}
+else if (localStorage.getItem('lHeight') === 'Grande'){
+    let body = document.querySelector('body')
+    body.style.lineHeight = '43px'
+}
+else {
+    let body = document.querySelector('body')
+    body.style.lineHeight = '23px'
+}
+
+// salvos 5
+if (localStorage.getItem('font') === 'Arial'){
+    let body = document.querySelector('body')
+    body.style.fontFamily = 'arial'
+}
+else {
+    let body = document.querySelector('body')
+    body.style.fontFamily = 'georgia'
 }
