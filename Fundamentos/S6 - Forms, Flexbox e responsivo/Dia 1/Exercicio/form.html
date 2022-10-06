@@ -9,15 +9,27 @@
 </head>
 <body>
     <form action="">
-        <input type="text" minlength="10" maxlength="50" name="nome" id="">nome
+        <label for="nome">Nome
+            <input type="text" minlength="10" maxlength="50" name="nome" id="nome">
+        </label>
         <br>
-        <input type="email" minlength="10" maxlength="50" name="email" id="">email
+        <label for="email">E-mail
+            <input type="email" minlength="10" maxlength="50" name="email" id="email">
+        </label>
         <br>
         <h3>Destino preferido</h3>
-        <input type="radio" name="opt" id="">Cidade
-        <input type="radio" name="opt" id="">Campo
-        <input type="radio" name="opt" id="">Praia
-        <input type="radio" name="opt" id="">Montanhas
+        <label for="city">
+            <input type="radio" name="opt" id="city">Cidade
+        </label>
+        <label for="field">
+            <input type="radio" name="opt" id="field">Campo
+        </label>
+        <label for="beach">
+            <input type="radio" name="opt" id="beach">Praia
+        </label>
+        <label for="mount">
+            <input type="radio" name="opt" id="mount">Montanhas
+        </label>
         <h3>Por que você deveria ser a pessoa desenvolvedora a ganhar o concurso TrybeTrip?</h3>
         <textarea name="" id="resposta" cols="20" placeholder="Limite de 500 caracteres" maxlength="500" rows="10"></textarea>
         <br>
@@ -30,7 +42,7 @@
         <input type="checkbox" name="concordo1" id="">Concordo que imagens das minhas férias poderão ser usadas na divulgação de concursos futuros.
         <br>
         <br>
-        <input type="submit" id="bs" value="Enviar">
+        <input type="submit" id="sb" value="Enviar">
         <input type="reset" value="Reset">
     </form>
     <script src="script.js"></script>
