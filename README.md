@@ -9,5 +9,9 @@ O programa conta com mais de 1.500 horas de aulas presenciais e online, aborda i
 
 ## Fundamentos do Desenvolvimento Web
 
-##### Bloco 1: Unix & Bash
-##### Bloco 2: Git,GitHub & Internet
+##### Sessão 1: Unix & Bash
+##### Sessão 2: Git,GitHub & Internet
+##### Sessão 3: Intro HTML & CSS
+##### Sessão 4: Intro JavaScript
+##### Sessão 5: JS,DOM e seletores
+##### Sessão 6: Forms,Flexbox e responsivo
