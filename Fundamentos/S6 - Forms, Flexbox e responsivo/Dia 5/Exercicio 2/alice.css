@@ -1,0 +1,44 @@
+html {
+    box-sizing: border-box;
+}
+  
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+
+/* Mobile */
+@media screen and (max-width: 412px) {
+    body{
+        margin: 10px;
+    }
+    header ul li{
+        display: inline;
+    }
+    header{
+        line-height: 5px;
+    }
+    .aside-one ul{
+        margin: -10px
+    }
+    .aside-two h2{
+        margin-top: 40px;
+        line-height: 5px;
+    }
+    .main-content{
+        margin: 15px;
+    }
+}
+
+/* Tablet */
+@media screen and (max-width: 820px) and (min-width: 413px) {
+    body{
+        background-color: yellow;
+    }
+}
+
+/* Computador */
+@media screen and (min-width: 821px) {
+    body{
+        background-color: green;
+    }
+}
