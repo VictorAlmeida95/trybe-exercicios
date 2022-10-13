@@ -1,0 +1,58 @@
+html {
+    box-sizing: border-box;
+}
+  
+  *, *:before, *:after {
+    box-sizing: inherit;
+}
+  
+body {
+  font-size: large;
+  margin: 20px;
+}
+  
+article {
+  
+}
+  
+h1 {
+   font-size: larger;
+}
+  
+h2 {
+  
+}
+  
+img {
+    max-width: 100%;
+}
+  
+main {
+  
+}
+  
+section {
+  
+}
+  
+figure {
+    margin: 0px;
+    margin-top: 20px;
+}
+  
+figcaption {
+    font-size: .8em;
+}
+
+@media screen and (max-width: 1920px) and (min-width: 768px) {
+    body{
+        font-size: x-large;
+    }
+    h1 {
+        font-size: xxx-large;
+    }
+    figure {
+        margin: 10px;
+        margin-top: 70px;
+    }
+}
