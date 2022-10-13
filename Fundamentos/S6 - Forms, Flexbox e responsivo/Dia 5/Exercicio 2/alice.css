@@ -57,6 +57,33 @@ html {
 /* Computador */
 @media screen and (min-width: 821px) {
     body{
-        background-color: green;
+        margin: 40px;
+        font-size: large;
+    }
+    header ul li{
+        display: inline;
+    }
+    header{
+        line-height: 5px;
+    }
+    .aside-one ul{
+        align-items: center;
+    }
+    .aside-two ul{
+        align-items: center;
+
+    }
+
+    .juntos{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        height: 350px;
+        align-content: space-between;
+    }
+
+    .main-content{
+        margin: 55px;
+        font-size: large;
     }
 }
