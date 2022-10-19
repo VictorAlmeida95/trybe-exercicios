@@ -10,7 +10,7 @@ const myFizzBuzz = require('./fizzbuzz');
 
 // Faça uma chamada com um parâmetro que não é um número e verifique se o retorno é o esperado
 
-describe('Função remove item', () => {
+describe('Função fizzbuzz', () => {
     it ('divisivel por 5 e por 3', () => {
         expect(myFizzBuzz(15)).toBe('fizzbuzz')
     })
