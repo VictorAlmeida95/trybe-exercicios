@@ -15,3 +15,5 @@ O programa conta com mais de 1.500 horas de aulas presenciais e online, aborda i
 ##### Sessão 4: Intro JavaScript
 ##### Sessão 5: JS,DOM e seletores
 ##### Sessão 6: Forms,Flexbox e responsivo
+##### Sessão 7: Intro ES6 e Testes unitários
+##### Sessão 8: High order function ES6
