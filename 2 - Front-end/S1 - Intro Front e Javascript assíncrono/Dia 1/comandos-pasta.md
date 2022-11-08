@@ -1,3 +1,4 @@
+0- Criar o Index.html na raiz
 1- npm init -y  // cria o packet.json
 2- Criar pasta src e main.js dentro
 3- <script type="module" src="./src/main.js"></script> // acrescentar no html
